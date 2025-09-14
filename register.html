@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <style>
+        body {
+            background-color: yellowgreen;
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .center-box {
+            background: #fff;
+            padding: 32px 24px;
+            border-radius: 12px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        form {
+            margin-top: 16px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 80%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            margin-top: 12px;
+            padding: 8px 24px;
+            border-radius: 6px;
+            border: none;
+            background: #4caf50;
+            color: #fff;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        h1 {
+            margin-bottom: 16px;
+        }
+        h4 {
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body >
+    <div class="center-box">
+    <center>
+        <header><h1>REGISTRATION FORM</h1></header>
+        <main>
+            <img src="logo.jpg" height="100" alt="ABES">
+        <form action="/submit_registration.php">
+            <label>Full Name:
+                <input type="text" placeholder="Enter your full name" required>
+            </label>
+            <br><br>
+            <label>Email:
+                <input type="email" placeholder="Enter your email" required>
+            </label>
+            <br><br>
+            <label>Password:
+                <input type="password" placeholder="Create a password" required>
+            </label>
+            <br><br>
+            <label>Confirm Password:
+                <input type="password" placeholder="Confirm your password" required>
+            </label>
+            <br><br>
+            <label for="101">
+            <input type="radio" value="B.Tech" name="course" id="101">B.Tech
+        </label>
+        <br><br>
+        <label for="102">
+            <input type="radio" value="M.Tech" name="course" id="102">M.Tech
+        </label>
+        <br><br>
+        <label for="103">
+            <input type="radio" value="MBA" name="course" id="103">MBA
+        </label>
+        <br><br>
+            <input type="submit" value="Register">
+        </form>
+    </main>
+        <br>  <br>  <br>
+    <a href="abes.html">Back to Login</a>
+     <br>  <br> 
+        <a href="aboutus.html">About Us</a>
+    </center>
+    
+</body>
+</html>
