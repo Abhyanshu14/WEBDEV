@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    border: 2px solid black;
+    justify-content:space-between; 
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+div{
+   height: 150px;
+    width: 150px;
+
+}
+#a1{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  text-align: center; 
+      background-color: blue;
+}
+
+
+#a2{
+    display: flex;
+     justify-content: center; 
+  align-items: center;     
+  text-align: center;
+    
+    background-color:red;
+}
+#a3{
+    display: flex;
+     justify-content: center; 
+  align-items: center;     
+  text-align: center;
+    background-color:green;
+}
+#a4{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    background-color:yellow;
+}
+#a5{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    text-align: center;
+    background-color: aqua;
+}
